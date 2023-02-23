@@ -1,10 +1,7 @@
 import json
 import re
 import requests
-import colorama as color
 
-
-color.init(autoreset=True)
 
 def get_news():
     pack = list()
