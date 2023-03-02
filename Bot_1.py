@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import test_news_api
 
-bot = telebot.TeleBot('5549730577:AAHHRHzq0Y6E4Dt9Q8pAg2E7VuxuA5zIENs')
+bot = telebot.TeleBot('YOU TOKEN')
 
 commands = ['/start', '/help']
 
