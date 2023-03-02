@@ -11,7 +11,7 @@ def get_news():
         for line in file:
             lst.append(line[0:-1])
     res = requests.get("https://newsapi.org/v2/top-headlines?",
-                       params={'language': 'ru', 'country': 'ru', 'apiKey': '7248b8a39f3d471581e5397cfd3f3459'}).text
+                       params={'language': 'ru', 'country': 'ru', 'apiKey': 'YOU APIKEY'}).text
 
     switch = list()
     info = json.loads(res)
