@@ -7,7 +7,7 @@ def get_news():
 
     response = requests.get('https://newsapi.org/v2/top-headlines?'
        'country=ru&'
-       'apiKey=7248b8a39f3d471581e5397cfd3f3459')
+       'apiKey=YOU APIKEY')
     news = json.loads(response.text)
     for key, val in list(news.items()):
         if key == 'articles':
