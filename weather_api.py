@@ -2,7 +2,7 @@ import requests
 
 
 def get_weather(city):
-    res = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=7063dee259e69f4dd72c9a6b94a9110c',
+    res = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=YOU APPID',
                        params={'units': 'metric', 'lang': 'ru'})
     data = res.json()
     try:
