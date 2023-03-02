@@ -3,7 +3,7 @@ from telebot import types
 import news_api
 import weather_api
 
-bot = telebot.TeleBot('5549730577:AAHHRHzq0Y6E4Dt9Q8pAg2E7VuxuA5zIENs')
+bot = telebot.TeleBot('YOU TOKEN')
 
 commands = ['/start', '/help']
 
