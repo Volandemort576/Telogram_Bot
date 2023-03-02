@@ -6,11 +6,10 @@ from weather_api import get_weather
 from database_ADMIN import DataBase_a
 from database_CLIENT import DataBase_c
 
-bot = telebot.TeleBot('5549730577:AAHHRHzq0Y6E4Dt9Q8pAg2E7VuxuA5zIENs')
+bot = telebot.TeleBot('YOU TOKEN')
 
 commands = ['/start', '/help', '/admin']
 
-city = str()
 index = -1
 
 
